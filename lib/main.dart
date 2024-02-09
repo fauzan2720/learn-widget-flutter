@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/day1/single-widget/padding.dart';
+import 'package:learn_flutter/day1/single-widget/align.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PaddingWidget(),
+      home: const AlignWidget(),
     );
   }
 }
