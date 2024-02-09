@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_flutter/day1/multi-widget/listview.dart';
+import 'package:learn_flutter/day1/multi-widget/listview_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ListViewWidget(),
+      home: const ListViewBuilderWidget(),
     );
   }
 }
